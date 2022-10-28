@@ -1,6 +1,22 @@
 
 body{background-color: white;}
 h1{text-align:center;}
-form{background-color: yellow;}
+h2{text-align:center;}
 span:hover {color: red;}
-#ipsum::selection{color: red; background: yellow;} 
+div{
+    width: 500px;
+    height: 250px;
+    /*top-right-bottom-left  
+    padding: 5px 50px 25px 12.5px */
+    border-width: medium;
+    border-top-style: ridge;
+    border-bottom-style: dashed;
+    border-left-style: groove;
+    border-right-style: double;
+    border-top-color: aqua;
+    border-bottom-color: red;
+    border-right-color: yellowgreen;
+    border-left-color: gray;
+    margin-left: 400px;
+}
+
