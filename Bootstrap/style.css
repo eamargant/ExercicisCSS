@@ -10940,34 +10940,14 @@ textarea.form-control-lg {
   height: 100vh;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: blue;
+    background-color: violet;
   }
 }
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: yellow;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 1399.98px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
     background-color: green;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: gray;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: black;
-  }
-}
-@media (min-width: 1400px) {
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: red;
   }
 }
 h1, .h1 {
