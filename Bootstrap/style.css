@@ -10942,12 +10942,12 @@ textarea.form-control-lg {
 
 @media (max-width: 767.98px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: violet;
+    background-color: hwb(59 0% 0%);
   }
 }
 @media (min-width: 768px) and (max-width: 1399.98px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: green;
+    background-color: red;
   }
 }
 h1, .h1 {

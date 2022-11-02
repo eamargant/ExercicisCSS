@@ -6,6 +6,9 @@
 @import "./node_modules/bootstrap/scss/variables";
 @import "./node_modules/bootstrap/scss/mixins";
 
+$primary: red;
+$dark: hwb(59 0% 0%);
+
 .container-fluid{
     background-color: black;
     height: 100vh; 
@@ -13,13 +16,13 @@
 
 @include media-breakpoint-between(xs, md){
     .container-fluid{
-        background-color: violet;
+        background-color: $dark;
        
     }
 }
 @include media-breakpoint-between(md, xxl){
     .container-fluid{
-        background-color: green;
+        background-color: $primary;
        
     }
 }
