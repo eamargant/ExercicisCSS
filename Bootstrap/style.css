@@ -10935,21 +10935,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  background-color: black;
+.bg-custom-color {
+  background-color: var(--bs-custom-color);
   height: 100vh;
 }
 
-@media (max-width: 767.98px) {
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: hwb(59 0% 0%);
-  }
-}
-@media (min-width: 768px) and (max-width: 1399.98px) {
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: red;
-  }
-}
 h1, .h1 {
   color: white;
   text-align: center;

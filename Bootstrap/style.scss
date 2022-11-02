@@ -7,24 +7,13 @@
 @import "./node_modules/bootstrap/scss/mixins";
 
 $primary: red;
-$dark: hwb(59 0% 0%);
+$dark: hsl(59, 100%, 50%);
+$custom-them-colors:("custom-color": blue);
 
-.container-fluid{
-    background-color: black;
-    height: 100vh; 
-}
 
-@include media-breakpoint-between(xs, md){
-    .container-fluid{
-        background-color: $dark;
-       
-    }
-}
-@include media-breakpoint-between(md, xxl){
-    .container-fluid{
-        background-color: $primary;
-       
-    }
+.bg-custom-color{
+    background-color: var(--bs-custom-color);
+    height: 100vh;
 }
 h1{
     color: white;
