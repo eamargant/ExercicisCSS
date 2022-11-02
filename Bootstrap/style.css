@@ -10936,7 +10936,7 @@ textarea.form-control-lg {
   }
 }
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  background-color: black;
+  background-color: white;
   height: 100vh;
 }
 
