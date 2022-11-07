@@ -11,8 +11,8 @@ const persona = {name: "Esteve", apellido: "Amargant", edad: 22, Dni: "39422511M
 console.table(persona);*/
 
 var numero = 1;
-var nom = "uno",num ="1";
-console.log(typeof nom);
+var nom = "uno",num ="4";
+console.log(typeof num);
 switch (numero) {
     case 1:
         console.log("Gener");
@@ -57,7 +57,18 @@ switch (numero) {
 
 switch (num) {
     case "1":
-        console.log("Entro aqui");
+        console.log(parseInt(num));
+        break;
+    case "2":
+        console.log(parseInt(num));
+        break;
+    case "3":
+        console.log(parseInt(num));
+        break;
+    case "4":
+        console.log(parseInt(num));
+        break;
+    case "5":
         console.log(parseInt(num));
         break;
 
