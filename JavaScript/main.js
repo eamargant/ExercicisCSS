@@ -9,28 +9,59 @@ alert(person);
 var nom = "Esteve", edad = 22, home = true, dona = false, dni = null, direccio, si = Symbol("No es pot cambiar");
 const persona = {name: "Esteve", apellido: "Amargant", edad: 22, Dni: "39422511M", sexo: "A todas horas"}
 console.table(persona);*/
-var bool = suma(6,17,37);
-console.log(bool);
-nomC("Esteve ", "Amargant ","Blanco");
-console.log(numGran(22,222));
 
-function suma(num1, num2, num3) {
-  let num = num1 + num2 + num3;
-  return num;
+var numero = 1;
+var nom = "uno",num ="1";
+console.log(typeof nom);
+switch (numero) {
+    case 1:
+        console.log("Gener");
+        break;
+    case 2:
+        console.log("Febrer");
+        break;
+    case 3:
+        console.log("Març");
+        break;
+    case 4:
+        console.log("Abril");
+        break;
+    case 5:
+        console.log("Maig");
+        break;
+    case 6:
+        console.log("Juny");
+        break;
+    case 7:
+        console.log("Juliol");
+        break;
+    case 8:
+        console.log("Agost");
+        break;
+    case 9:
+        console.log("Septembre");
+        break;
+    case 10:
+        console.log("Octubre");
+        break;
+    case 11:
+        console.log("Novembre");
+        break;
+    case 12:
+        console.log("Desembre");
+        break;
+
+    default:
+        break;
 }
-function nomC(nom, cognom, cognom2) {
-    let num = nom + cognom + cognom2 +"";
-    console.log(num);
+
+switch (num) {
+    case "1":
+        console.log("Entro aqui");
+        console.log(parseInt(num));
+        break;
+
+    default:
+        break;
 }
-function numGran(num1, num2) {
-    if(num1 > num2){
-        return num1;
-    }
-    else if (num1 < num2 ){
-        return num2;
-    }
-    else{
-        return "Els dos números son iguals";
-    }
-    
-  }
+
