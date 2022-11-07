@@ -9,19 +9,18 @@ alert(person);
 var nom = "Esteve", edad = 22, home = true, dona = false, dni = null, direccio, si = Symbol("No es pot cambiar");
 const persona = {name: "Esteve", apellido: "Amargant", edad: 22, Dni: "39422511M", sexo: "A todas horas"}
 console.table(persona);*/
-var myName = "Esteve Amargant Blanco", bool = true;
-const funcio = (nom) =>{
-    return nom;
-}
-console.log(funcio(myName));
+var bool = funko();
 
-function funko(numero) {
-    console.log(numero);
+if(bool == 1){
+    console.log(bool);
+    console.log("CARA");
 }
-funko(bool);
-const saludar = function(...params) {
-    params.forEach(element => {
-        console.log(element)
-    });
-};
-saludar(1,2,3,4,5,6,7,8,9,10);
+else{
+    console.log(bool);
+    console.log("CREU");
+}
+
+function funko() {
+  let num = Math.round(Math.random());
+  return num;
+}
