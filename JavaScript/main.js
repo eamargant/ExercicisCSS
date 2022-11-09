@@ -10,11 +10,29 @@ var nom = "Esteve", edad = 22, home = true, dona = false, dni = null, direccio, 
 const persona = {name: "Esteve", apellido: "Amargant", edad: 22, Dni: "39422511M", sexo: "A todas horas"}
 console.table(persona);*/
 
+var stringProba = "que cosas pasan";
+var paraula1 = "academia";
+var paraula2 = "escuela";
+stringProba = stringProba.replaceAll('a', "o");
+console.log(stringProba);
+empiezaPor(paraula1);
+empiezaPor(paraula2);
+hola("Hola");
+console.log("--------------");
+hola("hola");
 
-//el random de por si devuelve un numero decimal entre el 0 y el 1, asi que si queremos un rango tenemos que hacerlo manual.
-var numRandom = Math.random()* 10 +1;
 
-console.log("Número random: "+ Math.trunc(numRandom));
-console.log("-----------------");
-console.log("Pi redondeado: "+ Math.trunc(Math.PI));
+
+function empiezaPor(params) {
+    let bool = params.startsWith('aca');
+    console.log(params + " es " + bool);
+}
+
+function hola(params) {
+    if(params == "Hola" || params == "hola"){
+        console.log(params);
+        console.log(params);
+        console.log(params);
+    }
+}
 
